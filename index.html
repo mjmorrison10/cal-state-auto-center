@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal-State Auto Center | Trusted Auto Repair in Santa Ana, CA</title>
+    <meta name="description" content="Cal-State Auto Center - Santa Ana's trusted neighborhood auto center. Honest pricing, expert repairs. Oil changes, brakes, engine repair, smog & more. Call (714) 636-7765.">
+    <meta name="keywords" content="auto repair Santa Ana, car repair Santa Ana, oil change, brake repair, smog check, honest mechanic, Cal-State Auto Center, Westminster Ave">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:7146367765">(714) 636-7765</a>
+                </span>
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    4322 Westminster Ave, Santa Ana, CA
+                </span>
+            </div>
+            <div class="top-bar-right">
+                <span class="top-bar-item">Mon-Sat: 8AM-6PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">CS</span>
+                <div class="logo-text">
+                    <span class="logo-name">Cal-State Auto Center</span>
+                    <span class="logo-tagline">Santa Ana's Trusted Auto Center</span>
+                </div>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services" data-section="services">Services</a></li>
+                <li><a href="#why-us" data-section="why-us">Why Us</a></li>
+                <li><a href="#reviews" data-section="reviews">Reviews</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-cta" data-section="contact">Schedule Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-badge">Santa Ana's Trusted Neighborhood Auto Center</div>
+            <h1>Your Car Deserves a <span class="highlight">Mechanic You Trust.</span><br>Not a Bill You Dread.</h1>
+            <p class="hero-sub">Cal-State Auto Center has been the go-to shop on Westminster Ave for honest, reliable auto repair. We fix it right the first time, explain everything in plain English, and never sell you something you don't need. Your neighbors trust us. You can too.</p>
+            <div class="hero-ctas">
+                <a href="tel:7146367765" class="btn btn-primary btn-lg btn-pulse">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Call (714) 636-7765
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Get a Free Quote</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <div class="trust-score">4.5</div>
+                    <div class="trust-label">Yelp Rating<br><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span></div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="15">15+</div>
+                    <div class="trust-label">Years in<br>Business</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="5000">5,000+</div>
+                    <div class="trust-label">Cars<br>Repaired</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">ASE</div>
+                    <div class="trust-label">Certified<br>Technicians</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Banner -->
+    <section class="urgency-banner" id="urgency-banner">
+        <div class="container">
+            <div class="urgency-content">
+                <div class="urgency-text">
+                    <span class="urgency-label">NEW CUSTOMER SPECIAL</span>
+                    <strong>10% OFF</strong> your first repair. Mention this website when you call. This offer won't last!
+                </div>
+                <a href="tel:7146367765" class="btn btn-white">Claim Offer Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>Complete Auto Repair &<br>Maintenance Under One Roof</h2>
+                <p>From routine oil changes to complex engine diagnostics, Cal-State Auto Center handles it all with skill and honesty. No job too big or too small. We explain your options before we turn a single wrench.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Oil Change & Lube</h3>
+                    <p>Quick, affordable oil changes with premium synthetic and conventional oils. We use the exact grade your manufacturer recommends. No unnecessary upsells, just what your car needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <h3>Brake Service & Repair</h3>
+                    <p>Squeaking, grinding, or a spongy pedal? We diagnose the exact problem and show you what needs replacing. Honest brake repairs with no scare tactics. Your safety is our priority.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Tire Sales & Alignment</h3>
+                    <p>Great prices on all major tire brands plus precision wheel alignments that extend tire life and improve fuel economy. We price-match any legitimate competitor in Santa Ana.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>Engine Repair & Diagnostics</h3>
+                    <p>Check engine light on? Our technicians pinpoint the issue with advanced diagnostics and repair it right. From sensors and gaskets to full rebuilds, we keep your engine running strong.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V4a2 2 0 012-2h8a2 2 0 012 2v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>
+                    </div>
+                    <h3>Transmission Service</h3>
+                    <p>Hard shifts, slipping, or leaks? We service both automatic and manual transmissions. Get an honest assessment before you spend thousands at the dealer. We save you money.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Electrical & Battery</h3>
+                    <p>Dead battery, faulty alternator, or mysterious electrical issues? We trace the root cause, explain it clearly, and fix it right the first time. No guesswork, just results you can count on.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Smog Check & Repair</h3>
+                    <p>Need a smog check? We are a certified smog test and repair station. If your car fails, we fix the issue and get you passing fast. One stop, done right.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Suspension & Steering</h3>
+                    <p>Bumpy ride, uneven tire wear, or pulling to one side? We diagnose and repair shocks, struts, tie rods, and power steering. Restore your ride quality and stay safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag">Why Cal-State?</span>
+                    <h2>Santa Ana's Neighborhood Shop You Can Actually Trust</h2>
+                    <p>Most auto shops profit by finding "problems" you never came in for. At Cal-State Auto Center, we do the exact opposite. We've built our reputation on honest, no-pressure service. That's why your neighbors keep coming back and bringing their friends.</p>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Honest Pricing. No Surprises.</strong>
+                                <p>We give you a detailed quote before any work begins. If we find additional issues, we call you first. The price we quote is the price you pay. Period.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>We Show You the Problem</strong>
+                                <p>Before we fix anything, we show you exactly what's wrong with your car. No blind trust required. You see it with your own eyes and make an informed decision.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Smog Check Certified Station</strong>
+                                <p>We are a STAR-certified smog check and repair station. Get your smog test and any needed repairs done in one convenient stop on Westminster Ave.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Free Second Opinions</strong>
+                                <p>Got a quote from another shop that sounds too high? Bring it to us. We'll give you an honest second opinion at no charge. We'd rather earn your trust than your money.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-visual">
+                    <div class="stats-card">
+                        <div class="stats-number" data-count="200">200+</div>
+                        <div class="stats-label">5-Star Reviews</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="15">15+</div>
+                        <div class="stats-label">Years Serving Santa Ana</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="5000">5,000+</div>
+                        <div class="stats-label">Cars Repaired</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number">STAR</div>
+                        <div class="stats-label">Smog Certified Station</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Customer Reviews</span>
+                <h2>Don't Take Our Word For It.<br>Read What Santa Ana Drivers Say.</h2>
+                <p>Real reviews from real customers. No filtering, no cherry-picking. Just honest feedback from people who trust Cal-State Auto Center with their cars.</p>
+            </div>
+            <div class="reviews-grid" id="reviewsGrid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I've been coming to Cal-State for over 5 years now. They are always honest and fair with pricing. They never try to sell me something I don't need. This is the only shop I trust with my cars."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">M</div>
+                        <div>
+                            <strong>Maria G.</strong>
+                            <span>Yelp Verified Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"My check engine light came on and I was worried it would cost a fortune. They diagnosed it quickly, explained the issue in simple terms, and the repair cost half of what the dealer quoted. Great shop!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">R</div>
+                        <div>
+                            <strong>Robert S.</strong>
+                            <span>Verified Customer Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Finally found an honest mechanic in Santa Ana! They did my brakes and smog check the same day. Very transparent about what needed to be done and what could wait. Highly recommend."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">J</div>
+                        <div>
+                            <strong>Jesus M.</strong>
+                            <span>Yelp Verified Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I brought my car in for a second opinion after another shop gave me a huge estimate. Cal-State found the real problem and fixed it for a fraction of the cost. These guys are the real deal."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">A</div>
+                        <div>
+                            <strong>Angela P.</strong>
+                            <span>Verified Customer Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Fast, friendly, and affordable. They got my car in the same day I called and had it ready by the afternoon. The staff is always helpful and explains everything clearly. My whole family comes here."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">C</div>
+                        <div>
+                            <strong>Carolina R.</strong>
+                            <span>Yelp Verified Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Best auto shop in Santa Ana, hands down. They've worked on my Honda, my wife's Toyota, and my son's Nissan. Always fair, always honest. I wouldn't go anywhere else."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">D</div>
+                        <div>
+                            <strong>David L.</strong>
+                            <span>Verified Customer Review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <p>Join hundreds of happy Santa Ana drivers. Experience the Cal-State difference today.</p>
+                <a href="tel:7146367765" class="btn btn-primary">Call (714) 636-7765 Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About Cal-State</span>
+                    <h2>Serving Santa Ana With Integrity<br>Since Day One</h2>
+                    <p>Cal-State Auto Center has been a fixture on Westminster Ave in Santa Ana for over 15 years. What started as a small neighborhood shop has grown into one of the most trusted auto repair centers in the area, all through word of mouth and honest service.</p>
+                    <p>Our team of ASE-certified technicians treats every vehicle like it's their own. That means no inflated bills, no unnecessary repairs, and no confusing jargon. Just straight talk, quality work, and a genuine commitment to keeping you and your family safe on the road.</p>
+                    <p>Whether you drive a Honda, Toyota, Ford, Chevrolet, or BMW, Cal-State has the expertise and equipment to handle it. We're not just your mechanic. We're your neighbor.</p>
+                    <div class="trust-badges">
+                        <span class="trust-badge">ASE Certified</span>
+                        <span class="trust-badge">STAR Smog Station</span>
+                        <span class="trust-badge">Serving Since 2000s</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>ASE-Certified Technicians</h4>
+                        <p>Every mechanic on our team holds ASE certification, ensuring your vehicle receives expert care from trained professionals who stay current with the latest automotive technology.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>STAR Smog Certified</h4>
+                        <p>As a STAR-certified smog station, we can handle all smog testing and repairs. If your car fails, we fix the issue and get you back on the road fast.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Warranty Protection</h4>
+                        <p>All repairs come with warranty coverage. We stand behind every bolt we turn because your confidence and safety matter most to us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Car Problems Don't Fix Themselves.<br>Don't Wait Until It Gets Worse.</h2>
+                <p>Every mile you drive with an unresolved issue brings you closer to a bigger, more expensive repair. Call Cal-State now and get it handled before a small problem becomes a big one.</p>
+                <div class="cta-buttons">
+                    <a href="tel:7146367765" class="btn btn-primary btn-lg btn-pulse">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Call Now: (714) 636-7765
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Request an Appointment</a>
+                </div>
+                <p class="cta-note">Mention this website for <strong>10% OFF</strong> your first repair!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Schedule Your Repair Today</h2>
+                    <p>Walk-ins are welcome, but appointments get priority. Call us or fill out the form and we'll get back to you within the hour during business hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:7146367765">(714) 636-7765</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <strong>Address</strong>
+                                <span>4322 Westminster Ave<br>Santa Ana, CA 92703</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Mon-Sat: 8:00 AM - 6:00 PM<br>Sunday: Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Request an Appointment</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(714) 555-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@email.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="make">Vehicle Make</label>
+                                <input type="text" id="make" name="make" placeholder="Toyota, Honda, BMW...">
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <input type="text" id="year" name="year" placeholder="2020">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="oil-change">Oil Change & Lube</option>
+                                <option value="brakes">Brake Service & Repair</option>
+                                <option value="tires">Tire Sales & Alignment</option>
+                                <option value="engine">Engine Repair & Diagnostics</option>
+                                <option value="transmission">Transmission Service</option>
+                                <option value="electrical">Electrical & Battery</option>
+                                <option value="smog">Smog Check & Repair</option>
+                                <option value="suspension">Suspension & Steering</option>
+                                <option value="other">Other / General Inspection</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Describe the Issue</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Tell us what's going on with your vehicle..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Schedule My Appointment</button>
+                        <p class="form-note">We'll respond within 1 hour during business hours.</p>
+                    </form>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.5!2d-117.9215!3d33.7518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd9a0b0b0b0b1%3A0x123456789!2sCal-State+Auto+Center!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">CS</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Cal-State Auto Center</span>
+                            <span class="logo-tagline">Santa Ana's Trusted Auto Center</span>
+                        </div>
+                    </div>
+                    <p>Santa Ana's trusted neighborhood auto center for over 15 years. Honest service, fair pricing, and a commitment to keeping you safe on the road.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Cal-State</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Oil Change</a></li>
+                        <li><a href="#services">Brake Repair</a></li>
+                        <li><a href="#services">Tire Sales</a></li>
+                        <li><a href="#services">Engine Repair</a></li>
+                        <li><a href="#services">Smog Check</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:7146367765">(714) 636-7765</a></p>
+                    <p>4322 Westminster Ave<br>Santa Ana, CA 92703</p>
+                    <p>Mon-Sat: 8AM - 6PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cal-State Auto Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA -->
+    <div class="mobile-cta" id="mobileCta">
+        <a href="tel:7146367765" class="btn btn-primary btn-full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now: (714) 636-7765
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
